@@ -131,6 +131,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const newFeatures = function () {
+  console.log("well come po sainyong lahat gagoo");
+};
+
 const init = function () {
   BookMarkView.addhandlerRender(controlBookmarks);
   recipeView.addHandleRender(controlRecipes);
@@ -139,7 +143,7 @@ const init = function () {
   searchView.addSubmitSearch(controlsearchRe);
   paginationView.addhandlerClick(controlBtnPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log("WELCOME USERS!");
+  newFeatures();
 };
 init();
 // window.addEventListener("hashchange", showRecipes);
