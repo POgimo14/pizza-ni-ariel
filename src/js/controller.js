@@ -139,6 +139,7 @@ const init = function () {
   searchView.addSubmitSearch(controlsearchRe);
   paginationView.addhandlerClick(controlBtnPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  console.log("WELCOME USERS!");
 };
 init();
 // window.addEventListener("hashchange", showRecipes);
