@@ -4,7 +4,7 @@
   "description": " recipe application",
   "license": "ISC",
   "author": "Ariel Mendoza",
-  "type": "commonjs",
+  "type": "module",
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
