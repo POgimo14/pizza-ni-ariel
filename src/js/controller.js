@@ -131,10 +131,6 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
-const newFeatures = function () {
-  console.log("well come po sainyong lahat gagoo");
-};
-
 const init = function () {
   BookMarkView.addhandlerRender(controlBookmarks);
   recipeView.addHandleRender(controlRecipes);
@@ -143,7 +139,6 @@ const init = function () {
   searchView.addSubmitSearch(controlsearchRe);
   paginationView.addhandlerClick(controlBtnPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  newFeatures();
 };
 init();
 // window.addEventListener("hashchange", showRecipes);
