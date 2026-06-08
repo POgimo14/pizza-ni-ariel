@@ -8,7 +8,7 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "node ./node_modules/parcel/bin/cli.js build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "dependencies": {
     "ansi-styles": "^4.3.0",
@@ -42,7 +42,6 @@
     "node-releases": "^2.0.44",
     "nullthrows": "^1.1.1",
     "ordered-binary": "^1.6.1",
-    "parcel": "^2.16.4",
     "picocolors": "^1.1.1",
     "picomatch": "^4.0.4",
     "readdirp": "^4.1.2",
@@ -58,6 +57,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.4",
     "core-js": "^3.49.0",
+    "parcel": "^2.16.4",
     "regenerator-runtime": "^0.14.1"
   }
 }
